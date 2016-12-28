@@ -1,18 +1,6 @@
-import React from 'react';
 import {
-  AppRegistry,
-  View,
+  AppRegistry
 } from 'react-native';
-
-import Header from './src/components/Header';
-import AlbumList from './src/components/AlbumList';
-
-
-const App = () => (
-  <View style={{ flex: 1 }} >
-    <Header title="Albums 🎧" />
-    <AlbumList />
-  </View>
-);
+import App from './src/App';
 
 AppRegistry.registerComponent('albums', () => App);
