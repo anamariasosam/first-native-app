@@ -10,7 +10,7 @@ const Button = ({ onPress, children }) => (
 );
 
 
-const primaryColor = '#007aff';
+const primaryColor = '#262626';
 const styles = StyleSheet.create({
   button: {
    flex: 1,

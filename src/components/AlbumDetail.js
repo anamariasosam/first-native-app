@@ -6,6 +6,7 @@ import {
   Image,
   Linking,
 } from 'react-native';
+import { Actions } from 'react-native-router-flux'
 
 import Card from './Card';
 import CardSection from './CardSection';
@@ -47,8 +48,8 @@ const AlbumDetail = ({ album }) => {
       </CardSection>
 
       <CardSection>
-        <Button onPress={() => Linking.openURL(url)}>
-          Buy now!!
+        <Button onPress={() => Actions.album()}>
+          More info
         </Button>
       </CardSection>
     </Card>
