@@ -4,9 +4,8 @@ import {
   View,
   StyleSheet,
   Image,
-  Linking,
 } from 'react-native';
-import { Actions } from 'react-native-router-flux'
+import { Actions } from 'react-native-router-flux';
 
 import Card from './Card';
 import CardSection from './CardSection';
@@ -17,8 +16,7 @@ const AlbumDetail = ({ album }) => {
     title,
     artist,
     thumbnail_image,
-    image,
-    url,
+    image
   } = album;
 
   const {
