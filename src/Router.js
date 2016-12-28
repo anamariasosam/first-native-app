@@ -15,15 +15,19 @@ const RouterComponent = () => (
 );
 
 const styles = {
-  viewStyle: {
-    backgroundColor: '#F8F8F8',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.2,
-    elevation: 2,
-  },
   textStyle: {
     fontSize: 20,
+    color: '#262626'
+  },
+
+  viewStyle: {
+    backgroundColor: 'ghostwhite',
+    borderBottomWidth: 0,
+    height: 65,
+    shadowColor: 'black',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.3,
+    elevation: 2,
   }
 };
 
